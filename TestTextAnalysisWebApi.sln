@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTextAnalysisWebApi", "TestTextAnalysisWebApi\TestTextAnalysisWebApi.csproj", "{34D7B45B-AB5B-4061-8DA4-D9003CEE6BEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D7B45B-AB5B-4061-8DA4-D9003CEE6BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D7B45B-AB5B-4061-8DA4-D9003CEE6BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D7B45B-AB5B-4061-8DA4-D9003CEE6BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D7B45B-AB5B-4061-8DA4-D9003CEE6BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF28E182-5138-4CEE-9CB0-DEC3B39FF22C}
+	EndGlobalSection
+EndGlobal
