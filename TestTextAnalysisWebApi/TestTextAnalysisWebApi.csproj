@@ -161,10 +161,21 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\TextController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Metric\AverageWordLengthMetric.cs" />
+    <Compile Include="Metric\IMetric.cs" />
+    <Compile Include="Metric\LastWordMetric.cs" />
+    <Compile Include="Metric\NumberOfConsonantsMetric.cs" />
+    <Compile Include="Metric\NumberOfExclamatorySentencesMetric.cs" />
+    <Compile Include="Metric\NumberOfInterrogativeSentencesMatric.cs" />
+    <Compile Include="Metric\NumberOfLettersMetric.cs" />
+    <Compile Include="Metric\NumberOfNumbersMetric.cs" />
+    <Compile Include="Metric\NumberOfPunctuationMetric.cs" />
+    <Compile Include="Metric\NumberOfSentencesMetric.cs" />
+    <Compile Include="Metric\NumberOfVowelsMetric.cs" />
+    <Compile Include="Metric\NumberOfWordsMetric.cs" />
     <Compile Include="Models\MetricModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextAnalise.cs" />
